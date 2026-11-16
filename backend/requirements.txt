@@ -1,0 +1,30 @@
+# Western Ghats Sound Identifier — backend dependencies
+# Python 3.10-3.11 recommended (TensorFlow wheels)
+
+flask>=3.0
+flask-cors>=4.0
+flask-sqlalchemy>=3.1
+sqlalchemy>=2.0
+
+# Audio + ML
+librosa>=0.10.1
+soundfile>=0.12.1
+numpy>=1.24,<2.1
+scipy>=1.11
+tensorflow>=2.15,<2.19
+tensorflow-hub>=0.15
+
+# Reports
+pandas>=2.0
+reportlab>=4.0
+matplotlib>=3.8
+pillow>=10.0
+
+# Database (PostgreSQL for Docker deployment; SQLite works without it)
+psycopg2-binary>=2.9
+
+# Production WSGI server (Windows-friendly)
+waitress>=3.0
+
+# Testing
+pytest>=8.0
